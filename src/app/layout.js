@@ -1,10 +1,4 @@
 import { Inter } from "next/font/google";
-import Script from "next/script";
-
-<Script
-  src="https://kit.fontawesome.com/76a5083201.js"
-  crossorigin="anonymous"
-  async></Script>;
 import "./globals.css";
 import TransitionProvider from "@/components/transitionProvider";
 
