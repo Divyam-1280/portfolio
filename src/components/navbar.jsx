@@ -97,14 +97,14 @@ const Navbar = () => {
 
       {/* SOCIAL ICONS */}
 
-      <div className="hidden md:flex gap-5 w-1/3 justify-center items-center">
-        <Link href="#">
+      <div className="hidden md:flex gap-5 w-1/3 justify-center text-white items-center">
+        <Link href="https://github.com/Divyam-1280">
           <FaGithub style={{ width: 24, height: 24 }} />
         </Link>
-        <Link href="#">
+        <Link href="https://linkedin.com/in/divyam1280">
           <FaLinkedin style={{ width: 24, height: 24 }} />
         </Link>
-        <Link href="#">
+        <Link href="https://www.instagram.com/divyam._.singh21">
           <FaInstagram style={{ width: 24, height: 24 }} />
         </Link>
       </div>

@@ -3,7 +3,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* Custom styles */
+.background-website {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1437' height='560' preserveAspectRatio='none' viewBox='0 0 1437 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1437' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1003%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1437 0L1304.7 0L1437 48.04z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1304.7 0L1437 48.04L1437 102.91L849.24 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M849.24 0L1437 102.91L1437 129.78L442.81 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M442.80999999999995 0L1437 129.78L1437 331.87L159.31999999999994 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L142.99 560L0 419.1z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 419.1L142.99 560L702.14 560L0 339.98z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 339.98L702.14 560L989.87 560L0 269.65000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 269.65L989.87 560L1204.52 560L0 179.73999999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1437' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.26%25' y1='139.15%25' x2='84.74%25' y2='-39.15%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1003'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
@@ -28,6 +34,18 @@
 
 .pricerice-image {
   background-image: url("/pricerice.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.movie-image {
+  background-image: url("/movierater.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hariyali-image {
+  background-image: url("/hariyali.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

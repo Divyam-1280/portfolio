@@ -82,11 +82,13 @@ const About = () => {
       <div className="h-full overflow-y-scroll overflow-x-hidden scrollbar-hide">
         <div className="md:h-1/2 max-md:mb-10 px-4 flex md:flex-row max-md:pt-10 md:justify-center gap-8 flex-col sm:px-8 md:px-12 lg:px-20 xl:px-48">
           <div className="md:w-1/3 flex justify-center items-center">
-            <h1 className="md:text-6xl text-4xl font-semibold">About Me</h1>
+            <h1 className="md:text-6xl text-4xl font-semibold text-white">
+              About Me
+            </h1>
           </div>
-          <div className=" h-[65%] my-auto w-1 rounded-lg bg-black md:block hidden"></div>
+          <div className=" h-[65%] my-auto w-1 rounded-lg bg-white md:block hidden"></div>
           <div className="md:w-1/3 items-center justify-center flex md:ml-12">
-            <h2 className=" text-justify font-sans font-medium">
+            <h2 className=" text-justify font-sans font-medium text-white">
               I am Divyam, a skilled web developer specializing in frontend
               development. I am passionate about exploring innovative web
               technologies and creating captivating websites. In addition to my
@@ -98,7 +100,7 @@ const About = () => {
         </div>
         <div className="sm:px-8 md:px-12 lg:px-20 xl:px-48 items-center justify-center flex gap-20 flex-col">
           <div className="md:w-1/3 flex justify-center items-center">
-            <div className="md:text-4xl text-2xl font-bold underline underline-offset-4">
+            <div className="md:text-4xl text-2xl font-bold underline underline-offset-4 text-white">
               Tech Stack
             </div>
           </div>

@@ -3,14 +3,13 @@
 import { AnimatePresence, easeOut, motion } from "framer-motion";
 import Navbar from "./navbar";
 import { usePathname } from "next/navigation";
+import "./../app/globals.css";
 
 const TransitionProvider = ({ children }) => {
   const pathName = usePathname();
   return (
     <AnimatePresence mode="wait">
-      <div
-        key={pathName}
-        className="w-screen h-screen bg-gradient-to-b from-yellow-200 to-orange-200">
+      <div key={pathName} className="w-screen h-screen background-website">
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"
           animate={{ height: "0vh" }}
