@@ -19,33 +19,33 @@
 }
 
 .munsoc-image {
-  background-image: url("/munsoc.png");
+  background-image: url("/munsoc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .mesua-image {
-  background-image: url("/mesua.png");
+  background-image: url("/mesua.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .pricerice-image {
-  background-image: url("/pricerice.png");
+  background-image: url("/pricerice.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .movie-image {
-  background-image: url("/movierater.png");
+  background-image: url("/movierater.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .hariyali-image {
-  background-image: url("/hariyali.png");
+  background-image: url("/hariyali.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -21,7 +21,8 @@ const Form = () => {
       </motion.span>
       <motion.textarea
         rows={5}
-        className="bg-white border-b-2 p-2 resize-none text-sm"
+        placeholder="Enter your message"
+        className="bg-white text-black border-b-2 p-2 resize-none text-sm"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
@@ -35,7 +36,8 @@ const Form = () => {
       </motion.span>
       <motion.input
         type="email"
-        className="bg-white border-b-2 p-2 resize-none"
+        className="bg-white text-black border-b-2 p-2 resize-none"
+        placeholder="Enter your email"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.8 }}
