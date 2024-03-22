@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import "./../globals.css";
 import { PinContainer } from "@/components/ui/3d-pin";
-// Import Link from "next/link";
 
 const PortfolioPage = () => {
   return (
@@ -22,8 +21,6 @@ const PortfolioPage = () => {
           <h1>Projects</h1>
         </div>
         <div className="w-full h-full pb-28 mt-10 flex flex-wrap gap-11 justify-center md:text-3xl text-2xl font-semibold sm:px-8 md:px-12 lg:px-20 xl:px-32">
-          {/* Example usage of Link to remove warning */}
-          {/* <Link href="/">Home</Link> */}
           <a href="https://www.munsoc.in">
             <PinContainer
               title="Visit the Website"
@@ -106,7 +103,7 @@ const PortfolioPage = () => {
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
                   <span className="text-black ">
-                    A designer frontend website for a restaurant to display it's
+                    A designer frontend website for a restaurant to display its
                     menu and other information
                   </span>
                 </div>
