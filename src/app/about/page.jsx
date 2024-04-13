@@ -104,7 +104,7 @@ const About = () => {
               Tech Stack
             </div>
           </div>
-          <div className="flex flex-row flex-wrap items-center justify-center gap-16 md:gap-20 mb-10 w-full cursor-pointer sm:px-10 md:px-14 lg:px-20 xl:px-48">
+          <div className="flex noSelect flex-row flex-wrap items-center justify-center gap-16 md:gap-20 mb-10 w-full cursor-pointer sm:px-10 md:px-14 lg:px-20 xl:px-48">
             <AnimatedTooltip items={icons} />
           </div>
         </div>

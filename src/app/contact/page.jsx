@@ -1,11 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Form from "@/components/ui/form";
 
 const ContactPage = () => {
   const text = "Let's Connect!";
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
   return (
     <motion.div
       className="h-full"
@@ -34,7 +36,13 @@ const ContactPage = () => {
         </div>
 
         {/* Form Container */}
-        <Form className="h-1/2 lg:full lg:w-1/2 bg-black rounded-xl text-white text-xl flex flex-col gap-8 justify-center p-24" />
+        <Form
+          className="h-1/2 lg:full lg:w-1/2 bg-black rounded-xl text-white text-xl flex flex-col gap-8 justify-center p-24"
+          success={success}
+          error={error}
+          setSuccess={setSuccess}
+          setError={setError}
+        />
       </div>
     </motion.div>
   );
