@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
+import "./globals.css";
 
 const Homepage = () => {
   const router = useRouter();
@@ -16,7 +17,7 @@ const Homepage = () => {
   };
   return (
     <motion.div
-      className="h-full"
+      className="h-full overflow-scroll scrollbar-hide"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}>
@@ -45,7 +46,7 @@ const Homepage = () => {
             learning new things drives me to multitask and excel in what I love.
           </p>
           {/* BUTTONS */}
-          <div className="flex gap-4 w-full pb-2 justify-center">
+          <div className="flex gap-4 w-full pb-2 mb-4 justify-center">
             <button
               className="p-4 rounded-lg ring-1 view-work ring-black bg-black text-white"
               onClick={onWorkSubmit}>
