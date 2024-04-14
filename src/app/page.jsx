@@ -23,13 +23,13 @@ const Homepage = () => {
       transition={{ duration: 1 }}>
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         <div className="h-full flex items-center justify-center lg:w-1/2 relative">
-          <div className="md:-mt-16">
+          <div className="md:-mt-16 ">
             <Image
               src="/Divyam.png"
               alt="Divyam"
               height={300}
               width={300}
-              className="object-contain"
+              className="object-contain max-md:w-[200px]"
             />
           </div>
         </div>
@@ -39,10 +39,10 @@ const Homepage = () => {
             I am Divyam and I am a Software Developer
           </h1>
           {/* DESCRIPTION */}
-          <p className="md:text-lg text-white">
+          <p className="md:text-lg text-white flex text-justify">
             I am a dedicated software developer with a passion for creating
             exceptional websites. Specializing in frontend development, I craft
-            digital experiences that captivate and inspire. My enthusiasm for
+            websites that are very appealing and accessible. My enthusiasm for
             learning new things drives me to multitask and excel in what I love.
           </p>
           {/* BUTTONS */}
